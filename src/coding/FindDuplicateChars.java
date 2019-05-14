@@ -7,7 +7,7 @@ public class FindDuplicateChars {
 	
 	static void findDuplicateCharacters(String str) {
 		
-		
+		//store it in hashmap and then display
     	HashMap<Character, Integer> hm = new HashMap<>();
     	
     	for(int i = 0; i < str.length(); i++) {
